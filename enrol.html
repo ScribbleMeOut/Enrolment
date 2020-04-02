@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>NPTC Enrolment</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+
+    <link rel="stylesheet" href="css/Enrol.css">
+
+    <div class="btnback"><input type="button" value="Return Home" onclick="history.back()"></div>
+</head>
+
+<body>
+
+
+    <form name="myForm"  onsubmit="return validateForm()" action="connect.php" method="post">
+        <h1>Enrolment Form</h1>
+
+        <fieldset>
+            <legend><span class="number">1</span> Basic information</legend>
+            <input type="text" id="name" name="name" placeholder="First Name" required>
+
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <input type="text" id="DOB" name="DOB" placeholder="Date Of Birth" required>
+
+            <label>Gender</label>
+            <input type="radio" id="Male" value="Male" name="gender"><label for="Male" class="light">Male</label>
+            <br>
+            <input type="radio" id="female" value="female" name="gender"><label for="female" class="light">Female</label><br>
+           <input type="radio" id="myth" value="myth" name="gender"><label for="Mythical" class="light">Mythical</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="number" >2</span> Further information</legend>
+            <input type="text" id="nationality" name="nationality" placeholder="nationality" required>
+
+            <input type="text" id="telephoneNumber" name="telephoneNumber" placeholder="Telephone Number" required>
+
+            <label>Do you require extra support?</label>
+            <input type="radio" id="Yes" value="Yes" name="extraSupport"><label for="Yes" class="light">Yes</label>
+            <br>
+            <input type="radio" id="No" value="No" name="extraSupport"><label for="No" class="light">No</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="number">3</span> Qualifications</legend>
+            <input type="number" id="GCSEs" name="GCSEs" placeholder="Number of GCSE's" required>
+
+            <input type="number" id="ALevels" name="ALevels" placeholder="Number of A Levels" required>
+
+
+            <input type="text" id="prevEducation" name="prevEducation" placeholder="Last School / College" required>
+
+            <label>Atleast a C Grade in:</label>
+            <input type="checkbox" id="Eng" name="CGrade" onclick="myFunction3()" value="Eng"><label class="light" for="development">English</label><br>
+            <input type="checkbox" id="Maths" name="CGrade" onclick="myFunction()" value="Maths"><label class="light" for="development">Maths</label><br>
+            <input type="checkbox" id="Both" name="CGrade" onclick="myFunction2()" value="Both"><label class="light" for="development">Both</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="number">4</span> Your profile</legend>
+            <h3> Upload a clear image of yourself </h3>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                Select image to upload:
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                </fieldset>
+            
+
+        <fieldset>
+            <legend><span class="number">5</span> Application </legend>
+
+
+            <label>Course Level</label>
+
+
+            <input type="radio" id="btec1" value="BTEC Level 1" name="courseLevel" style="display:inline"><label id="btec1lbl" style="display:inline" class="light" for="HND">BTEC Level 1</label><br>
+            <input type="radio" id="btec2" value="BTEC Level 2" name="courseLevel" style="display:none"><label id="btec2lbl" style="display:none" class="light" for="HND">BTEC Level 2</label><br>
+            <input type="radio" id="btec3" value="BTEC Level 3" name="courseLevel" style="display:none"><label id="btec3lbl" style="display:none" class="light" for="HND">BTEC Level 3</label><br>
+            <input type="radio" id="HND" value="HND" name="courseLevel" style="display:none"><label id="HNDLbl" style="display:none" class="light" for="HND">HND</label><br>
+            <input type="radio" id="BSc" value="BSc / BA" name="courseLevel" style="display:none"><label id="BScLbl" style="display:none" class="light" for="HND">BSc / BA</label><br>
+            <input type="radio" id="ALevel" value="A Level" name="courseLevel" style="display:none"><label id="ALevellbl" style="display:none" class="light" for="HND">A Level</label><br>
+
+
+            <label for="course">Course applying for</label>
+            <select id="courseApplication" name="courseApplication" required>
+                <optgroup label=" ">
+                    <option value="Blank">Select a course</option>
+
+                </optgroup>
+                <optgroup label="Neath">
+                    <option value="Computing">Computing</option>
+                    <option value="Business">Business</option>
+                    <option value="Media">Media</option>
+                    <option value="Bricklaying">Bricklaying</option>
+                    <option value="Mechanics">Mechanics</option>
+                    <option value="Law">Law</option>
+                </optgroup>s
+                <optgroup label="Afan">
+                    <option value="Hair and Beauty">Hair and Beauty</option>
+                    <option value="Art">Art</option>
+                    <option value="Health and social care">Health and social care</option>
+                </optgroup>
+                <optgroup label="Llandarcy Academy of Sports">
+                    <option value="Sport">Sport</option>
+                    <option value="Public Services">Public Services</option>
+                </optgroup>
+            </select>
+            <br>
+
+        </fieldset>
+
+
+        <button type="submit" value="Upload Image">Complete Enrolment </button>
+
+    </form>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/Enrol.js"></script>
+</body>
+<footer>
+    <p>Joshua Hanbury &copy; 2020</p>
+</footer>
+
+</html>
