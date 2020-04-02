@@ -1,0 +1,170 @@
+2020-03-13 13:46:18 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:48:15 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:48:22 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:48:22 Error: [Cake\Http\Exception\MissingControllerException] Controller class Users could not be found. in C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:132
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:162
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:118
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\Nptc\cake\webroot\index.php:40
+
+Request URL: /users
+Client IP: 127.0.0.1
+
+
+2020-03-13 13:49:07 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:49:12 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:49:12 Error: [Cake\View\Exception\MissingTemplateException] Template file `Request\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\Nptc\cake\templates\Request\index.php`
+- `C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\templates\Request\index.php`
+ in Request\index.php on line 1335
+Exception Attributes: array (
+  'file' => 'Request\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\Nptc\\cake\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\Nptc\\cake\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\View\View.php:748
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:691
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:533
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:132
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:162
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:118
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\Nptc\cake\webroot\index.php:40
+
+Request URL: /request
+Client IP: 127.0.0.1
+
+
+2020-03-13 13:54:26 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:54:29 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:55:18 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:55:18 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:57:38 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:58:46 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:59:14 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:59:17 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:59:20 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 13:59:26 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 14:00:39 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 14:00:40 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 14:00:47 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 14:01:19 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 14:01:23 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 14:02:01 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 14:02:31 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 14:03:26 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-13 14:03:26 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:40
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Database\Connection.php:342
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:69
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Database\Connection.php:345
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Database\Query.php:245
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\ORM\Table.php:2029
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\ORM\Table.php:1921
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\ORM\Table.php:1822
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\ORM\Table.php:1522
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Database\Connection.php:700
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\ORM\Table.php:1523
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\ORM\Table.php:1823
+- C:\xampp\htdocs\Nptc\cake\src\Controller\RequestController.php:53
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:524
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:132
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:162
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:118
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\Nptc\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\Nptc\cake\webroot\index.php:40
+
+Request URL: /request/add
+Referer URL: http://nptc.enrolment.uk/cake/request/add
+Client IP: 127.0.0.1
+
+
+2020-03-17 17:52:12 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 17:59:56 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 18:03:57 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 18:04:00 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 19:55:04 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 19:55:49 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 19:56:58 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 19:57:24 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 19:57:24 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 19:57:35 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 19:58:35 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 19:58:35 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 19:59:24 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 20:00:26 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 20:00:26 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-17 20:01:42 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 18:19:07 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 18:19:14 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 18:19:20 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:15:13 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:21:29 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:21:38 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:22:35 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:22:35 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:22:46 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:22:48 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:22:51 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:22:52 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:23:00 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:23:05 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-18 21:23:13 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-20 17:59:44 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-20 18:00:10 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-20 18:00:20 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-20 18:00:25 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-20 18:00:25 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-20 18:00:48 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-20 18:00:48 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-20 18:01:00 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-03-20 18:01:04 Warning: DebugKit is disabling itself as your host `nptc.enrolment.uk` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
